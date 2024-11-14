@@ -8,9 +8,9 @@ public class ServiceJunit4 {
     public void calculateRemain() {
 
  CashbackHackService service = new CashbackHackService();
-int amount = 900;
+int amount = 1000;
 int actual = service.remain(amount);
-int expected = 100;
+int expected = 0;
 
 Assert.assertEquals(expected,actual);
     }
