@@ -7,14 +7,13 @@ public class ServiceJunit4 {
     @Test
     public void calculateRemain() {
 
- CashbackHackService service = new CashbackHackService();
-int amount = 1000;
-int actual = service.remain(amount);
-int expected = 0;
+        CashbackHackService service = new CashbackHackService();
+        int amount = 1000;
+        int actual = service.remain(amount);
+        int expected = 0;
 
-Assert.assertEquals(expected,actual);
+        Assert.assertEquals(expected, actual);
     }
-
 
 
 }
